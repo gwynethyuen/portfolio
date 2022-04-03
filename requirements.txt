@@ -1,0 +1,8 @@
+pymongo[srv]
+git+https://github.com/matthewyoungbar/SwimScraper.git@main
+requests
+bs4
+pandas
+selenium
+webdriver_manager
+python-dot_env
