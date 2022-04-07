@@ -15,7 +15,7 @@ class Skills extends Component {
     return(
       <Container fluid className="page-container">
         <Container fluid className="siteHeader d-flex align-items-center">
-          <Button><FontAwesomeIcon fa-border-none icon={faBars} background-color="transparent"/></Button>
+          <Button variant="menu"><FontAwesomeIcon icon={faBars}/></Button>
           <Image src={require("../images/header.png")} fluid width="200"></Image>
         </Container>
         <Container className="px-4">
