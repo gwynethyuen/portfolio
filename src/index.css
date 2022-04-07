@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page-container {
+  padding: 0 !important;
+}
+
+/* Header for each page */
+.siteHeader {
+  background-color: #1B2937;
+  color: #fff;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.siteHeaderTitle {
+  font-size: 40px;
+  font-family: var(--bs-body-font-family);
+}
+
+.sectionTitle {
+  font-family: var(--bs-body-font-family);
+}
