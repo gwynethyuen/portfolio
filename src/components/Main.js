@@ -10,7 +10,7 @@ import Extracurriculars from './Extracurriculars.js';
 import Skills from './Skills.js';
 
 const Main = (props) => {
-  console.log(props);
+  // console.log(props);
   return (    
     <Routes>
       <Route path="/" element={<Home/>}></Route>

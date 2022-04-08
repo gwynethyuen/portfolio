@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Container, ListGroup, Row, Col, Badge, Image, Button } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Container, ListGroup, Row, Col } from 'react-bootstrap';
+import Navigation from './Navigation.js';
+import Contact from './Contact.js';
 
 class Skills extends Component {
 
@@ -14,22 +14,14 @@ class Skills extends Component {
   render() {
     return(
       <Container fluid className="page-container">
-        <Container fluid className="siteHeader d-flex align-items-center">
-          <Button variant="menu"><FontAwesomeIcon icon={faBars}/></Button>
-          <Image src={require("../images/header.png")} fluid width="200"></Image>
-        </Container>
+        <Navigation/>
         <Container className="px-4">
           <h1 className="siteHeaderTitle mb-3">Skills</h1>
           <Row>
             <Col>
               <h2>Programming Languages</h2>
               <ListGroup variant="flush">
-                <ListGroup.Item className="d-flex justify-content-between align-items-start">
-                  <div>Python</div>
-                  <Badge bg="primary" pill>
-                    14
-                  </Badge>
-                </ListGroup.Item>
+                <ListGroup.Item>Python</ListGroup.Item>
                 <ListGroup.Item>Java</ListGroup.Item>
                 <ListGroup.Item>C++</ListGroup.Item>
                 <ListGroup.Item>C</ListGroup.Item>
@@ -61,6 +53,7 @@ class Skills extends Component {
             </Col>
           </Row>
         </Container>
+        <Contact/>
       </Container>
     );
   }

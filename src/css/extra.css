@@ -1,0 +1,19 @@
+.custom-arrow-btn {
+  color: #FD7C6F !important;
+  /* background-color: #FD7C6F !important; */
+}
+
+.custom-arrow-btn-2 {
+  color: #ECC7AD !important;
+  /* background-color: #FD7C6F !important; */
+}
+
+.btn-primary, .btn-outline-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+  background-color: #93d142 !important;
+  border-color: transparent !important;
+  color: #0d3d01 !important;
+}
+
+.btn-primary:hover {
+  color: #bff080 !important;
+}
