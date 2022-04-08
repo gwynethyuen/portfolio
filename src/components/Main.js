@@ -13,7 +13,7 @@ const Main = (props) => {
   // console.log(props);
   return (
     <Routes>
-      <Route exact path="/" element={<Home/>}></Route>
+      <Route path="/" element={<Home/>}></Route>
       {/* <Route path="/about" element={<About/>}></Route> */}
       <Route path="/education" element={<Education/>}></Route>
       <Route path="/experience" element={<Experience/>}></Route>

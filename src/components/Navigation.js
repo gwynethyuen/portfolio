@@ -19,7 +19,7 @@ class Navigation extends Component {
                 <Nav>
                   <Container className="d-flex justify-content-between icons">
                     {/*To Do: scrollable through pages, about page linked to "/"*/}
-                    <Nav.Link exact href="/"><FontAwesomeIcon icon={faHome}/></Nav.Link>
+                    <Nav.Link href="/"><FontAwesomeIcon icon={faHome}/></Nav.Link>
                     {/* <Nav.Link href="/about"><FontAwesomeIcon icon={faUser}/></Nav.Link> */}
                     <Nav.Link href="/education"><FontAwesomeIcon icon={faGraduationCap}/></Nav.Link>
                     <Nav.Link href="/experience"><FontAwesomeIcon icon={faBriefcase}/></Nav.Link>
