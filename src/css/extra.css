@@ -8,6 +8,15 @@
   /* background-color: #FD7C6F !important; */
 }
 
+.badge {
+  color: #0d3d01 !important;
+  /* background: #FD7C6F !important; */
+}
+
+.badge-hover {
+  color: #bff080 !important;
+}
+
 .btn-primary, .btn-outline-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
   background-color: #93d142 !important;
   border-color: transparent !important;

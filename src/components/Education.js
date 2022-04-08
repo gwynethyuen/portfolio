@@ -88,7 +88,7 @@ class Education extends Component {
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   Robotics I
                   <a href="https://youtu.be/8OQFvJfcejA" target="_blank" rel="noreferrer">
-                  <Badge className="custom-arrow-btn" pill>
+                  <Badge variant="bg-danger" pill>
                     <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
                   </Badge>
                   </a>

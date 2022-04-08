@@ -94,7 +94,7 @@ class Extracurriculars extends Component {
                 href="https://www.teamunify.com/team/njpa/page/home"
                 target="_blank"
               >
-                <FontAwesomeIcon icon={faLink}/> Repository</Button>
+                <FontAwesomeIcon icon={faLink}/> Team Page</Button>
             </Card.Body>
           </Card>
           <div class="mt-3"/>

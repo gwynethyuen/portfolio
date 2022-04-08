@@ -19,13 +19,13 @@ class Navigation extends Component {
                 <Nav>
                   <Container className="d-flex justify-content-between icons">
                     {/*To Do: scrollable through pages, about page linked to "/"*/}
-                    <Nav.Link activeClassName="home" href="/"><FontAwesomeIcon icon={faHome}/></Nav.Link>
-                    <Nav.Link activeClassName="about" href="/about"><FontAwesomeIcon icon={faUser}/></Nav.Link>
-                    <Nav.Link activeClassName="education" href="/education"><FontAwesomeIcon icon={faGraduationCap}/></Nav.Link>
-                    <Nav.Link activeClassName="experience" href="/experience"><FontAwesomeIcon icon={faBriefcase}/></Nav.Link>
-                    <Nav.Link activeClassName="projects" href="/projects"><FontAwesomeIcon icon={faCode}/></Nav.Link>
-                    <Nav.Link activeClassName="extracurriculars" href="/extracurriculars"><FontAwesomeIcon icon={faPersonSwimming}/></Nav.Link>
-                    <Nav.Link activeClassName="skills" href="/skills"><FontAwesomeIcon icon={faPencil}/></Nav.Link>
+                    <Nav.Link exact href="/"><FontAwesomeIcon icon={faHome}/></Nav.Link>
+                    {/* <Nav.Link href="/about"><FontAwesomeIcon icon={faUser}/></Nav.Link> */}
+                    <Nav.Link href="/education"><FontAwesomeIcon icon={faGraduationCap}/></Nav.Link>
+                    <Nav.Link href="/experience"><FontAwesomeIcon icon={faBriefcase}/></Nav.Link>
+                    <Nav.Link href="/projects"><FontAwesomeIcon icon={faCode}/></Nav.Link>
+                    <Nav.Link href="/extracurriculars"><FontAwesomeIcon icon={faPersonSwimming}/></Nav.Link>
+                    {/* <Nav.Link href="/skills"><FontAwesomeIcon icon={faPencil}/></Nav.Link> */}
                   </Container>
                 </Nav>
             </Container>

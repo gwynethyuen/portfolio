@@ -14,7 +14,7 @@ class Skills extends Component {
   render() {
     return(
       <Container fluid className="page-container">
-        <Navigation/>
+        {/* <Navigation/> */}
         <Container className="px-4">
           <h1 className="siteHeaderTitle mb-3">Skills</h1>
           <Row>
@@ -53,7 +53,7 @@ class Skills extends Component {
             </Col>
           </Row>
         </Container>
-        <Contact/>
+        {/* <Contact/> */}
       </Container>
     );
   }

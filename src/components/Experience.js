@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card, Container } from 'react-bootstrap';
 import Navigation from './Navigation.js';
 import Contact from './Contact.js';
+import Skills from './Skills.js';
 
 class Experience extends Component {
 
@@ -66,6 +67,8 @@ class Experience extends Component {
             </Card>
           {/* </Row> */}
         </Container>
+        <div class="mt-5"/>
+        <Skills/>
         <Contact/>
       </Container>
     );
