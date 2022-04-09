@@ -6,7 +6,6 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Contact from './Contact.js';
 
 class Extracurriculars extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -25,33 +24,33 @@ class Extracurriculars extends Component {
             <Card.Body>
               <Card.Title as="h6">Introduction to Computer Science</Card.Title>
               <Card.Subtitle as="h7"><i>Fall 2020, Fall 2021, Spring 2022</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 Facilitated labs and office hours, and graded homeworks.
               </Card.Text>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">Undergraduate Mentor</Card.Header>
             <Card.Body>
               <Card.Title as="h6">Introduction to Algorithms</Card.Title>
               <Card.Subtitle as="h7"><i>Spring 2021</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 Facilitated labs and office hours, and graded homeworks.
               </Card.Text>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">RPI Swimming and Diving</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Varsity Team</Card.Title>
             <Card.Subtitle as="h7"><i>Fall 2018-Spring 2022</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 I was on the Liberty League All-Academic Team (minimum 3.3 GPA) for
                 the school years 2019-2020 and 2021-2022, as freshmen aren't eligible
@@ -74,14 +73,14 @@ class Extracurriculars extends Component {
                 <FontAwesomeIcon icon={faLink}/> RPI Athletics</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">Peddie Swimming</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Club Swim Team</Card.Title>
             <Card.Subtitle as="h7"><i>2009-2018</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 I was on my club swim team for almost 10 years (and was on another for half a year).
                 During my time on the Peddie Aquatics Association swim team, I swam two hours a day
@@ -97,14 +96,14 @@ class Extracurriculars extends Component {
                 <FontAwesomeIcon icon={faLink}/> Team Page</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">West Windsor-Plainsboro High School North Swimming</Card.Header>
             <Card.Body>
             <Card.Title as="h6">High School Varsity Swim Team</Card.Title>
             <Card.Subtitle as="h7"><i>2014-2018</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 In addition to doing club swimming, in high school, I joined my high school team.
                 Being on both a club team and a high school team was a huge committment, however, through

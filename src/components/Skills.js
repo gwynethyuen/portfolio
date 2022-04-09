@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Container, ListGroup, Row, Col } from 'react-bootstrap';
-import Navigation from './Navigation.js';
-import Contact from './Contact.js';
 
 class Skills extends Component {
 
@@ -14,7 +12,6 @@ class Skills extends Component {
   render() {
     return(
       <Container fluid className="page-container">
-        {/* <Navigation/> */}
         <Container className="px-4">
           <h1 className="siteHeaderTitle mb-3">Skills</h1>
           <Row>
@@ -53,7 +50,6 @@ class Skills extends Component {
             </Col>
           </Row>
         </Container>
-        {/* <Contact/> */}
       </Container>
     );
   }

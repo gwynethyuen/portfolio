@@ -5,7 +5,6 @@ import Contact from './Contact.js';
 import About from './About.js';
 
 class Home extends Component {
-
   constructor(props) {
     super(props);
     this.state = {

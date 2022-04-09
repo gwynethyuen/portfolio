@@ -66,14 +66,14 @@ class Education extends Component {
                 <small className="text-muted">Expected Graduation Date: May 2022</small>
               </Card.Footer>
             </Card>
-          <div class="mt-5"/>
+          <div className="mt-5"/>
           <h4>Notable Relevant Coursework</h4>
-          <div class="mt-4"/>
+          <div className="mt-4"/>
           <Container>
           <Row>
             <Col>
               <h5>Computer Science</h5>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <ListGroup variant="flush">
                 <h6>Completed</h6>
                 <ListGroup.Item>Data Structures</ListGroup.Item>
@@ -106,21 +106,22 @@ class Education extends Component {
             </Col>
 
             <Col>
-              <h5>Arts Studio</h5>
-              <div class="mt-3"/>
+              <div className="d-flex align-items-start">
+              <h5>Arts Studio</h5>&emsp;
+              <a href="https://www.behance.net/gwyneth-yuen" target="_blank" rel="noreferrer">
+                    <Badge className="custom-arrow-btn" pill>
+                      <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
+                    </Badge>
+                  </a>
+              </div>
+              <div className="mt-3"/>
               <ListGroup variant="flush">
                 <h6>Completed</h6>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   Beginner and Intermediate Digital Imaging
-                  <Badge className="custom-arrow-btn" pill>
-                    <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                  </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   Digital Filmmaking
-                    <Badge className="custom-arrow-btn-2" pill>
-                      <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                    </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   2D Experimental Animation
@@ -132,21 +133,12 @@ class Education extends Component {
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   3D Digital Modeling
-                  <Badge className="custom-arrow-btn-2" pill>
-                    <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                  </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   3D Visual Effects
-                  <Badge className="custom-arrow-btn" pill>
-                    <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                  </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   Introduction to Graphic Design
-                  <Badge className="custom-arrow-btn-2" pill>
-                    <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                  </Badge>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   3D Animation
@@ -158,22 +150,22 @@ class Education extends Component {
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   Animation Production
-                  <Badge className="custom-arrow-btn-2" pill>
+                  {/* <Badge className="custom-arrow-btn-2" pill>
                     <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                  </Badge>
+                  </Badge> */}
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">
                   Creative Seminar I and II
-                  <Badge className="custom-arrow-btn" pill>
+                  {/* <Badge className="custom-arrow-btn" pill>
                     <FontAwesomeIcon icon={faAngleRight}></FontAwesomeIcon>
-                  </Badge>
+                  </Badge> */}
                 </ListGroup.Item>
               </ListGroup>
             </Col>
 
             <Col>
               <h5>Information Technology</h5>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <ListGroup variant="flush">
                 <h6>Completed</h6>
                 <ListGroup.Item className="d-flex justify-content-between align-items-start">

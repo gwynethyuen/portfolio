@@ -22,7 +22,7 @@ class Experience extends Component {
               <Card.Header as="h5">SimpliSafe Home Security</Card.Header>
               <Card.Body>
                 <Card.Title>Data Engineering/Business Intelligence Intern</Card.Title>
-                <div class="mt-3"/>
+                <div className="mt-3"/>
                 <Card.Text>
                 <p>
                   <b>Boston, MA (remote)</b>
@@ -46,12 +46,12 @@ class Experience extends Component {
                 <small className="text-muted">Dates: June 2021 - August 2021</small>
               </Card.Footer>
             </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
             <Card>
               <Card.Header as="h5">American Pool Enterprises, Inc.</Card.Header>
               <Card.Body>
                 <Card.Title>Lifeguard</Card.Title>
-                <div class="mt-3"/>
+                <div className="mt-3"/>
                 <Card.Text>
                 <p>
                   <b>Princeton Jct, NJ</b>
@@ -67,7 +67,7 @@ class Experience extends Component {
             </Card>
           {/* </Row> */}
         </Container>
-        <div class="mt-5"/>
+        <div className="mt-5"/>
         <Skills/>
         <Contact/>
       </Container>

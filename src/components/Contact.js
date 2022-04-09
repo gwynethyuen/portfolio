@@ -1,9 +1,11 @@
 import React, { Component, } from 'react';
 import { Container, Button } from 'react-floating-action-button';
 import { Modal } from 'react-bootstrap';
+import { Button as ReactButton } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin,faYoutube } from '@fortawesome/free-brands-svg-icons';
+import '../css/contact.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -17,59 +19,38 @@ class Contact extends Component {
     const handleClose=(e)=>{
       this.setState({showModal: !this.state.showModal});
     }
-    // console.log("the link " + this.props.url + " was clicked.")
+
     console.log("rendering");
     return (
       <Modal show={this.state.showModal} onHide={handleClose}>
-        {/* <Modal show={this.state.showModal}> */}
       <Modal.Header closeButton>
-        <Modal.Title>Modal heading</Modal.Title>
+        <Modal.Title>Contact Information</Modal.Title>
       </Modal.Header>
-      <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+      <Modal.Body>
+        <p>
+        Phone Number: <a href="tel:+16093582327">+1(609)358-2327</a>
+        <br/>
+        Email Address: <a href="mailto:gwyneth.yuen@gmail.com">gwyneth.yuen@gmail.com</a>
+        </p>
+      </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-        {/* <Button variant="secondary"> */}
-          Close
-        </Button>
-        <Button variant="primary" onClick={handleClose}>
-        {/* <Button variant="primary"> */}
-          Save Changes
-        </Button>
+        <ReactButton
+          variant="outline-primary"
+          className="text-white"
+          onClick={handleClose}
+        >
+          <FontAwesomeIcon icon={faCheck} style={{color: "white"}}></FontAwesomeIcon>
+        </ReactButton>
       </Modal.Footer>
     </Modal>
-      // <div className="modal show">
-      //   <div className="modal-dialog modal-dialog-centered" role="document">
-      //     <div className="modal-content">
-      //       <div className="modal-header">
-      //         <h5 className="modal-title" id="exampleModalLongTitle">Modal 
-      //         title</h5>
-
-      //         <button type="button" className="close" data-dismiss="modal" 
-      //         aria-label="Close">
-      //         <span aria-hidden="true">&times;</span>
-      //         </button>
-      //       </div>
-      //       <div className="modal-body">
-      //         ...
-      //       </div>
-      //       <div className="modal-footer">
-      //         <button type="button" className="btn btn-secondary" data- 
-      //          dismiss="modal">Close</button>
-      //         <button type="button" className="btn btn-primary">Save 
-      //         changes</button>
-      //       </div>
-      //     </div>
-      //   </div>
-      // </div>
     );
   }
-
-  
 
   render() {
     const handleClick=(e)=>{
       this.setState({showModal: !this.state.showModal});
     }
+
     return(
       <Container fluid className="page-container">
         <Button
@@ -90,7 +71,6 @@ class Contact extends Component {
           <FontAwesomeIcon icon={faUser} style={{color: "white"}}></FontAwesomeIcon>
         </Button>
         {this.state.showModal && this.renderModal()}
-      {/* </div> */}
 
         <Button
           styles={{backgroundColor: "#FD7C6F"}}

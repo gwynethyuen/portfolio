@@ -26,7 +26,7 @@ class Projects extends Component {
             <Card.Body>
               <Card.Title as="h6">Software Development</Card.Title>
               <Card.Subtitle as="h7"><i>Spring 2022</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 A mobile-focused application using the MERN stack that is a one-stop-shop for all
                 of the applications that the RPI Swimming and Diving varsity team
@@ -49,14 +49,14 @@ class Projects extends Component {
                 <FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">TFT Interpreter</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Software Design & Documentation</Card.Title>
             <Card.Subtitle as="h7"><i>Spring 2022</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 A simple GUI created with Python and Tkinter designed to use computer vision
                 to capture an active TeamFight Tactics game and identify the units on the
@@ -73,14 +73,14 @@ class Projects extends Component {
               <Button variant="primary" href="https://github.com/BrianHotopp/TFTInterpreter" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">Portfolio</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Personal Project</Card.Title>
             <Card.Subtitle as="h7"><i>Ongoing</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 My personal portfolio which you're looking at right now! Originally started
                 on <a href="https://gwynethyuen.github.io" target="_blank" rel="noreferrer">GitHub</a>, I've
@@ -92,14 +92,14 @@ class Projects extends Component {
               <Button variant="primary" href="https://github.com/gwynethyuen/portfolio" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">DuckieChase</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Robotics I</Card.Title>
             <Card.Subtitle as="h7"><i>Fall 2021</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 A project for a Robotics course that made use of Python and Docker. As a group of
                 three members, we were provided with a <a href="https://www.duckietown.org">Duckiebot</a> that
@@ -114,14 +114,14 @@ class Projects extends Component {
               <Button variant="primary" href="https://github.com/matthewyoungbar/duckie-chase" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">Resolute</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Computability and Logic</Card.Title>
             <Card.Subtitle as="h7"><i>Spring 2021</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 Resolute was a project done for a course called Computability and Logic. The objective
                 of this course was to fully understand logic functions and computations. The project
@@ -132,14 +132,14 @@ class Projects extends Component {
               <Button variant="primary" href="https://github.com/matthewyoungbar/Resolute" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">SwimBot</Card.Header>
             <Card.Body>
             <Card.Title as="h6">Group Project (not coursework)</Card.Title>
             <Card.Subtitle as="h7"><i>Summer 2020</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 A very short-lived project two of my friends and I worked on during the summer
                 of 2020 when I had absolutely nothing to do (internships were difficult to obtain).
@@ -152,14 +152,14 @@ class Projects extends Component {
               <Button variant="primary" href="https://github.com/matthewyoungbar/Discord-SwimBot" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
-          <div class="mt-3"/>
+          <div className="mt-3"/>
           <Card>
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">Disaster Guide</Card.Header>
             <Card.Body>
             <Card.Title as="h6">HackRPI</Card.Title>
             <Card.Subtitle as="h7"><i>November 2019</i></Card.Subtitle>
-              <div class="mt-3"/>
+              <div className="mt-3"/>
               <Card.Text>
                 The Disaster Guide was a two day project for HackRPI, a hackathon hosted by my
                 school. It incorporated the use of python, the Google Cloud API, and front-end
