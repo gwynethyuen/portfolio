@@ -30,10 +30,10 @@ class Education extends Component {
                   <b>Cumulative GPA: N/A</b>
                 </p>
                 <p>
-                  With the ability to do only one extra year of coursework to obtain a Master's degree,
-                  I am taking that opportunity to learn more on the front-end and fullstack side of
-                  development, as I wasn't able to do that in my undergraduate years. This will benefit
-                  me in the future because having the knowledge about all aspects of software development
+                  I aim to finish a Master's degree within the 2022-23 academic year.
+                  I am eager to learn more on the front-end and fullstack side of
+                  development, which I wasn't able to do that during my undergraduate years. I believe
+                  it is important to have the knowledge about all aspects of software development
                   rather than just the back-end.
                 </p>
                 </Card.Text>
@@ -54,10 +54,10 @@ class Education extends Component {
                 </p>
                 <p>
                   I will be graduating with my Bachelor of Science in both Computer Science and
-                  Electronic Arts with concentrations in and Artificial Intelligence and Data
-                  and Animation, respectively, in May 2022. I have receive the Rensselaer Leadership
-                  Award all four years and been on the Dean's Honor List (cumulative GPA 3.5 and no grade
-                  below C) for all semesters except Fall 2019, where I was on the Dean's List
+                  Electronic Arts with concentrations in Artificial Intelligence and Data
+                  and Animation, respectively, in May 2022. I have received the Rensselaer Leadership
+                  Award all four years and have been on the Dean's Honor List (cumulative GPA 3.5 and no grade
+                  below C) for all semesters except Fall 2019, during which I was on the Dean's List
                   (cumulative GPA 3.3 and no grade below C).
                 </p>
                 </Card.Text>

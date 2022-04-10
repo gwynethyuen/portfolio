@@ -28,16 +28,16 @@ class Projects extends Component {
               <Card.Subtitle as="h7"><i>Spring 2022</i></Card.Subtitle>
               <div className="mt-3"/>
               <Card.Text>
-                A mobile-focused application using the MERN stack that is a one-stop-shop for all
+                A mobile-focused application, using MERN stack, as a "one-stop-shop" for all
                 of the applications that the RPI Swimming and Diving varsity team
-                uses. Although it was created as a project for my software development class, it has
-                been a project I've been wanting to do for a while. With so many different
+                uses. Although it was created as a project for my software development class, it is 
+                a project I've been contemplating for a while. With so many different
                 applications being used such as SwimCloud (swim results and rankings), GroupMe
                 (for messaging), Google Calendar (events), Google Drive (forms and documents), and
                 the RPI Athletics page (roster), it is difficult to keep track of and get ahold
                 of people. We designed an application that combines a majority of these into one.
-                This project was a group of four people, and I worked on the pages for admin as
-                well as the page for alerts and calendar.
+                This was a team project of four students, and I was responsible for the pages for admin,
+                 alerts, and calendar.
               </Card.Text>
               <Button
                 style={{color: "#1B2937"}}
@@ -63,7 +63,7 @@ class Projects extends Component {
                 board when in the planning phase. Then, suggestions are provided to the user
                 on which units to purchase to build the most powerful compositions, which
                 are determined by scraping pre-existing data, and factors in currency and other
-                gamestate variables. This was a group of five colleagues, and throughout this
+                gamestate variables. This was a team project of five students, and throughout this
                 project I worked mostly on the GUI as well as the starting point for determining
                 whether or not the user is in the planning phase using computer vision.
               </Card.Text>
@@ -82,12 +82,12 @@ class Projects extends Component {
             <Card.Subtitle as="h7"><i>Ongoing</i></Card.Subtitle>
               <div className="mt-3"/>
               <Card.Text>
-                My personal portfolio which you're looking at right now! Originally started
-                on <a href="https://gwynethyuen.github.io" target="_blank" rel="noreferrer">GitHub</a>, I've
-                now migrated to an actual domain for better access and professionalism. I
+                My personal portfolio that you're looking at right now! Originally started
+                on <a href="https://gwynethyuen.github.io" target="_blank" rel="noreferrer">GitHub</a>, 
+                I've now migrated to an actual domain for better access and the professional look. I
                 started this after taking my software development course and finally learning
-                front-end elements in a class setting. This will hopefully always be under
-                development if I remember it exists.
+                front-end elements in a class setting. I plan to continually develop this site with
+                new ideas and technologies as my portfolio grows.
               </Card.Text>
               <Button variant="primary" href="https://github.com/gwynethyuen/portfolio" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
@@ -111,7 +111,6 @@ class Projects extends Component {
                 lanes on the road and other cars, as well as traffic lights. We incorporated the use
                 of computer vision to detect the yellow color of the duck.
               </Card.Text>
-              <Button variant="primary" href="https://github.com/matthewyoungbar/duckie-chase" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLink}/> Repository</Button>
             </Card.Body>
           </Card>
           <div className="mt-3"/>
@@ -142,7 +141,7 @@ class Projects extends Component {
               <div className="mt-3"/>
               <Card.Text>
                 A very short-lived project two of my friends and I worked on during the summer
-                of 2020 when I had absolutely nothing to do (internships were difficult to obtain).
+                of 2020 when we had time on our hands (as internships were difficult to obtain).
                 This was a Discord bot that we created using python and deployed through Heroku.
                 The bot has functions like reading from SwimCloud (a website that stores swimmer
                 times, results, and rankings) and searching that information and playing marco polo.

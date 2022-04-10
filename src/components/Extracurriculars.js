@@ -105,14 +105,14 @@ class Extracurriculars extends Component {
             <Card.Subtitle as="h7"><i>2014-2018</i></Card.Subtitle>
               <div className="mt-3"/>
               <Card.Text>
-                In addition to doing club swimming, in high school, I joined my high school team.
-                Being on both a club team and a high school team was a huge committment, however, through
-                it I was able to learn how to manage my time efficiently. High school swimming took
-                place from the beginning of November to January or February every year. I attended
-                two hour practices on Tuesday and Thursday mornings, as well as dual meets on those same
-                nights. After the meets, I typically headed straight to club practice. In terms of achievements,
-                I obtained three different records - the 100 Short Course Meters (SCM) Backstroke, and
-                two relays, the 200 SCM Medley Relay and the 400 SCM Freestyle Relay. In my senior year, my
+                In addition to competing for Peddie Aquatics Association, in high school, I also competed for the
+                swim team for all four years. I was one of the top scorers for my high school and was also a school
+                record holder for three events - the 100 Short Course Meters (SCM) Backstroke, and
+                two relays, the 200 SCM Medley Relay and the 400 SCM Freestyle Relay.
+                Being on both a club team and a high school team is a big commitment. More importantly,
+                I learned how to manage my time efficiently. During the swim seasons, I had to juggle
+                dual swim practices and swim meets, with the backdrop of a very demanding academic
+                curriculum. In my senior year, my
                 team was the Valley Division, Mercer County Tournament, and NJSIAA Central Jersey Group B champions.
               </Card.Text>
             </Card.Body>

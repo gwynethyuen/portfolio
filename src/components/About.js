@@ -18,7 +18,7 @@ class About extends Component {
             Computer Science and Electronic Arts and working towards an M.S. in Information Technology. I am
             actively seeking internships for Summer 2022 and full-time positions after May 2023. I am also open
             to part-time positions during the school year from August 2022 to May 2023. I have experience with
-            a variety of programming languages including Python, Java, C++, and JavaScript.
+            a variety of programming languages including Python, Java, C++, SQL, and JavaScript.
           </p>
         <Contact/>
       </Container>

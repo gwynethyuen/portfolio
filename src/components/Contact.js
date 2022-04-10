@@ -3,7 +3,7 @@ import { Container, Button } from 'react-floating-action-button';
 import { Modal } from 'react-bootstrap';
 import { Button as ReactButton } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faUser, faCheck, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import '../css/contact.css';
 
@@ -80,6 +80,17 @@ class Contact extends Component {
           target="_blank"
           rel="noreferrer">
             <FontAwesomeIcon icon={faYoutube} style={{color: "white"}}></FontAwesomeIcon>
+          </a>
+        </Button>
+
+        <Button
+          styles={{backgroundColor: "#FD7C6F"}}
+          className="text-white"
+        >
+          <a href="resume.pdf"
+          target="_blank"
+          rel="noreferrer">
+            <FontAwesomeIcon icon={faFilePdf} style={{color: "white"}}></FontAwesomeIcon>
           </a>
         </Button>
 
