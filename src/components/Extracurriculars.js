@@ -23,7 +23,7 @@ class Extracurriculars extends Component {
             <Card.Header as="h5">Undergraduate Mentor</Card.Header>
             <Card.Body>
               <Card.Title as="h6">Introduction to Computer Science</Card.Title>
-              <Card.Subtitle as="h7"><i>Fall 2020, Fall 2021, Spring 2022</i></Card.Subtitle>
+              <Card.Subtitle as="h7"><i>Fall 2020, Fall 2021, Spring 2022, Fall 2022</i></Card.Subtitle>
               <div className="mt-3"/>
               <Card.Text>
                 Facilitated labs and office hours, and graded homeworks.

@@ -14,10 +14,11 @@ class About extends Component {
     return(
       <Container fluid className="page-container" id="about">
           <p>
-            I am a senior and rising graduate student at Rensselaer Polytechnic Institute with a dual B.S. in
-            Computer Science and Electronic Arts and working towards an M.S. in Information Technology. I am an
-            incoming Software Engineer Intern at Twilio. I am open to part-time positions during the 
-            school year from August 2022 to May 2023 and full-time positions after May 2023. I have experience with
+            I am a rising graduate student at Rensselaer Polytechnic Institute with a dual B.S. in
+            Computer Science and Electronic Arts and working towards a M.S. in Information Technology.
+            I was a Software Engineer Intern at Twilio for the summer of 2022.
+            I am open to part-time positions during the school year from August 2022 to May 2023 and
+            full-time positions after May 2023. I have experience with
             a variety of programming languages including Python, Java, C++, SQL, and JavaScript.
           </p>
         <Contact/>

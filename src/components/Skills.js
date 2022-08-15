@@ -25,6 +25,8 @@ class Skills extends Component {
                 <ListGroup.Item>HTML5</ListGroup.Item>
                 <ListGroup.Item>CSS</ListGroup.Item>
                 <ListGroup.Item>JavaScript</ListGroup.Item>
+                <ListGroup.Item>TypeScript</ListGroup.Item>
+                <ListGroup.Item>Scala</ListGroup.Item>
               </ListGroup>
             </Col>
             <Col>
@@ -46,6 +48,9 @@ class Skills extends Component {
                 <ListGroup.Item>Google Drive</ListGroup.Item>
                 <ListGroup.Item>Microsoft Office</ListGroup.Item>
                 <ListGroup.Item>Adobe Creative Suite</ListGroup.Item>
+                <ListGroup.Item>Jira</ListGroup.Item>
+                <ListGroup.Item>Visual Studio Code</ListGroup.Item>
+                <ListGroup.Item>IntelliJ</ListGroup.Item>
               </ListGroup>
             </Col>
           </Row>

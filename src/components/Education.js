@@ -27,7 +27,7 @@ class Education extends Component {
                 <Card.Title> Information Technology</Card.Title>
                 <Card.Text>
                 <p>
-                  <b>Cumulative GPA: N/A</b>
+                  <b>Cumulative GPA: 4.0/4.0</b>
                 </p>
                 <p>
                   I aim to finish a Master's degree within the 2022-23 academic year.
@@ -50,12 +50,12 @@ class Education extends Component {
                 <Card.Title>Computer Science<br/>Electronic Arts</Card.Title>
                 <Card.Text>
                 <p>
-                  <b>Cumulative GPA: 3.7/4.0</b>
+                  <b>Cumulative GPA: 3.71/4.0<br/>magna cum laude</b>
                 </p>
                 <p>
-                  I will be graduating with my Bachelor of Science in both Computer Science and
+                  I graduated with a Bachelor of Science in both Computer Science and
                   Electronic Arts with concentrations in Artificial Intelligence and Data
-                  and Animation, respectively, in May 2022. I have received the Rensselaer Leadership
+                  and Animation, respectively. I have received the Rensselaer Leadership
                   Award all four years and have been on the Dean's Honor List (cumulative GPA 3.5 and no grade
                   below C) for all semesters except Fall 2019, during which I was on the Dean's List
                   (cumulative GPA 3.3 and no grade below C).
@@ -63,7 +63,7 @@ class Education extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">Expected Graduation Date: May 2022</small>
+                <small className="text-muted">Graduation Date: May 2022</small>
               </Card.Footer>
             </Card>
           <div className="mt-5"/>

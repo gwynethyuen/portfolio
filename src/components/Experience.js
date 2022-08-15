@@ -18,6 +18,32 @@ class Experience extends Component {
         <Navigation/>
         <Container className="px-4">
           <h1 className="siteHeaderTitle mb-3">Experience</h1>
+          <Card>
+              <Card.Header as="h5">Twilio Segment</Card.Header>
+              <Card.Body>
+                <Card.Title>Software Engineer Intern</Card.Title>
+                <div className="mt-3"/>
+                <Card.Text>
+                <p>
+                  <b>San Francisco, CA (remote)</b>
+                </p>
+                <p>
+                  I interned at Twilio, a company that provides programmable communication tools based
+                  in San Francisco, CA, during the summer of 2022. I was part of the Personas Compute team.
+                  I completed a project that added a new operator, called the "in" operator, to the traits
+                  builder, which is a part of the personas section of the Segment application.
+                  This new operator provides a way for users to compare the equality of one value to a
+                  list of values in one statement, rather than having to add multiple "equals" conditions.
+                  The results of the addition of the "in" operator were an increased computation speed as well
+                  as improved user experience.
+                </p>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Dates: May 2022 - August 2022</small>
+              </Card.Footer>
+            </Card>
+            <div className="mt-3"/>
             <Card>
               <Card.Header as="h5">SimpliSafe Home Security</Card.Header>
               <Card.Body>
