@@ -14,7 +14,7 @@ class About extends Component {
     return(
       <Container fluid className="page-container" id="about">
           <p>
-            I am a technology analyst at Fiserv, Inc. in Berkeley Heights, NJ.
+            I am a Technology Analyst at Fiserv, Inc. in Berkeley Heights, NJ.
             I graduated from Rensselaer Polytechnic Institute with a M.S. in Information Technology and a dual B.S. in
             Computer Science and Electronic Arts. I was a Software Engineer Intern at Twilio for the summer of 2022
             and a Data Engineering Intern at SimpliSafe for the summer of 2021. I have experience with
