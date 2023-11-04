@@ -48,6 +48,15 @@ class Extracurriculars extends Component {
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
             <Card.Header as="h5">RPI Swimming and Diving</Card.Header>
             <Card.Body>
+            <Card.Title as="h6">Volunteer Assistant Coach</Card.Title>
+            <Card.Subtitle as="h7"><i>Fall 2022-Spring 2023</i></Card.Subtitle>
+              <div className="mt-3"/>
+              <Card.Text>
+                For my final year in graduate school, I decided to volunteer for the team as an assistant coach.
+                I helped out the coaches during practices and attended the meets as well as getting the pool
+                set up and ready for meets.
+              </Card.Text>
+              <div className="mt-3"/>
             <Card.Title as="h6">Varsity Team</Card.Title>
             <Card.Subtitle as="h7"><i>Fall 2018-Spring 2022</i></Card.Subtitle>
               <div className="mt-3"/>

@@ -30,8 +30,8 @@ class Education extends Component {
                   <b>Cumulative GPA: 4.0/4.0</b>
                 </p>
                 <p>
-                  I aim to finish a Master's degree within the 2022-23 academic year.
-                  I am eager to learn more on the front-end and fullstack side of
+                  I graduated with a Master of Science in Information Technology with a concentration
+                  in Software Design and Engineering. I have taken courses on the front-end and fullstack side of
                   development, which I wasn't able to do that during my undergraduate years. I believe
                   it is important to have the knowledge about all aspects of software development
                   rather than just the back-end.

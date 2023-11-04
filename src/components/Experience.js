@@ -18,6 +18,29 @@ class Experience extends Component {
         <Navigation/>
         <Container className="px-4">
           <h1 className="siteHeaderTitle mb-3">Experience</h1>
+
+            <Card>
+              <Card.Header as="h5">Fiserv, Inc.</Card.Header>
+              <Card.Body>
+                <Card.Title>Technology Analyst</Card.Title>
+                <div className="mt-3"/>
+                <Card.Text>
+                <p>
+                  <b>Berkeley Heights, NJ</b>
+                </p>
+                <p>
+                  I am currently a Technology Analyst at Fiserv, Inc in Berkeley Heights, NJ.
+                </p>
+                <p>
+                  {/* details about position later */}
+                </p>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Dates: June 2023 - Present</small>
+              </Card.Footer>
+            </Card>
+            <div className="mt-3"/>
           <Card>
               <Card.Header as="h5">Twilio Segment</Card.Header>
               <Card.Body>

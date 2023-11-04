@@ -27,6 +27,8 @@ class Skills extends Component {
                 <ListGroup.Item>JavaScript</ListGroup.Item>
                 <ListGroup.Item>TypeScript</ListGroup.Item>
                 <ListGroup.Item>Scala</ListGroup.Item>
+                <ListGroup.Item>C#</ListGroup.Item>
+                <ListGroup.Item>Powershell</ListGroup.Item>
               </ListGroup>
             </Col>
             <Col>
@@ -51,6 +53,7 @@ class Skills extends Component {
                 <ListGroup.Item>Jira</ListGroup.Item>
                 <ListGroup.Item>Visual Studio Code</ListGroup.Item>
                 <ListGroup.Item>IntelliJ</ListGroup.Item>
+                <ListGroup.Item>Microsoft Team Foundation Server (TFS)</ListGroup.Item>
               </ListGroup>
             </Col>
           </Row>

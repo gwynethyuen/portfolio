@@ -14,12 +14,11 @@ class About extends Component {
     return(
       <Container fluid className="page-container" id="about">
           <p>
-            I am a rising graduate student at Rensselaer Polytechnic Institute with a dual B.S. in
-            Computer Science and Electronic Arts and working towards a M.S. in Information Technology.
-            I was a Software Engineer Intern at Twilio for the summer of 2022.
-            I am open to part-time positions during the school year from August 2022 to May 2023 and
-            full-time positions after May 2023. I have experience with
-            a variety of programming languages including Python, Java, C++, SQL, and JavaScript.
+            I am a technology analyst at Fiserv, Inc. in Berkeley Heights, NJ.
+            I graduated from Rensselaer Polytechnic Institute with a M.S. in Information Technology and a dual B.S. in
+            Computer Science and Electronic Arts. I was a Software Engineer Intern at Twilio for the summer of 2022
+            and a Data Engineering Intern at SimpliSafe for the summer of 2021. I have experience with
+            a variety of programming languages including Python, Java, C++, C#, SQL, and JavaScript.
           </p>
         <Contact/>
       </Container>
